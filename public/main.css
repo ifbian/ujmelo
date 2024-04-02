@@ -95,9 +95,9 @@
 h4 {
   font-weight: 700;
 }
-h6 {
+/* h6 {
   font-weight: 700;
-}
+} */
 
 .spacer1-backg {
   background-image: url("img/image-divider-1.jpeg");
@@ -152,4 +152,13 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
+}
+
+#center-form {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  border-radius: 1px;
 }
