@@ -27,12 +27,12 @@
 
             <div class="center-div text-white text-center">
                 <div class="main-text">
-                    <h4>RSVP</h4>
+                    <h6>RSVP</h6>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et metus in quam fringilla scelerisque at sit amet nunc. </p>                 
                 </div>
                 <div class="spacer-margin">
                     <p>
-                        A/E
+                        A+E
                     </p>
                 </div>
             </div> 
@@ -51,7 +51,7 @@
               <label for="email" class="text-uppercase mt-3 mb-1">*email</label>
               <input type="email" class="form-control" id="email" name="email">
               
-              <div class="form-group">
+              <div class="form-group option-box">
                 <label for="option" class="text-uppercase mt-3 mb-1">*I will attend to</label>
                 <select multiple class="form-control" id="option" name="option">
                   <option value="1">wedding day</option>

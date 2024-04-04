@@ -95,9 +95,10 @@
 h4 {
   font-weight: 700;
 }
-/* h6 {
+h6 {
+  font-size: 2.2rem;
   font-weight: 700;
-} */
+}
 
 .spacer1-backg {
   background-image: url("img/image-divider-1.jpeg");
@@ -161,4 +162,8 @@ h4 {
   font-weight: 700;
   letter-spacing: 3px;
   border-radius: 1px;
+}
+
+#option{
+  overflow-y: hidden !important;
 }
