@@ -7,7 +7,6 @@ export default {
   },
   methods: {
     rsvp() {
-      // `this` inside methods points to the current active instance
       this.$router.push('/rsvp')
     }
   }

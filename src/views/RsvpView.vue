@@ -1,4 +1,4 @@
-<style>
+<!-- <style>
 @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
@@ -6,7 +6,25 @@
     align-items: center;
   }
 }
-</style>
+</style> -->
+<script>
+  export default{
+    data(){
+      return{
+        name:'',
+        email:'',
+        selected:'',
+        message:''
+      }
+    },
+    methods:{
+      alertolo(){
+        alert("Name: " + this.name + "\n" + "Email: " + this.email + "\n" + "You selected: " + this.selected + "\n" + "Message: " + this.message )
+      }
+    }
+
+  }
+</script>
 
 <template>
   <div class="body-bg">
@@ -47,16 +65,18 @@
           <div class="row">
             <div class="col">
               <label for="name" class="text-uppercase mt-3 mb-1">*Name:</label>
-              <input type="text" class="form-control" id="name" name="name">
+              <!-- <input type="text" class="form-control" id="name" name="name"> -->
+              <input v-model="name" class="form-control">
               <label for="email" class="text-uppercase mt-3 mb-1">*email</label>
-              <input type="email" class="form-control" id="email" name="email">
+              <!-- <input type="email" class="form-control" id="email" name="email"> -->
+              <input v-model="email" class="form-control">
               
               <div class="form-group option-box">
                 <label for="option" class="text-uppercase mt-3 mb-1">*I will attend to</label>
-                <select multiple class="form-control" id="option" name="option">
-                  <option value="1">wedding day</option>
-                  <option value="2">ceremony day</option>
-                  <option value="3">the party</option>
+                <select v-model="selected" multiple class="form-control" id="option" name="option">
+                  <option value="Wedding Day">Wedding Day</option>
+                  <option value="Ceremony Day">Ceremony Day</option>
+                  <option value="The Party">The Party</option>
                 </select>
               </div>
 
@@ -64,13 +84,13 @@
             <div class="col">
               <div class="form-group">
                 <label for="message" class="text-uppercase mt-3 mb-1">Leave message</label>
-                <textarea class="form-control" id="message" rows="10"></textarea>
+                <textarea v-model="message" class="form-control" id="message" rows="10"></textarea>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="col text-center">
-              <button type="submit" class="btn btn-primary mb-2 tex-center text-uppercase">Submit</button>
+              <button @click="alertolo" class="btn btn-danger mb-2 tex-center text-uppercase">Submit</button>
               <!-- <input type="submit" value="Submit"> -->
             </div>
           </div>
