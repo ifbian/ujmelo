@@ -167,3 +167,9 @@ h6 {
 #option{
   overflow-y: hidden !important;
 }
+
+.red {
+  color: red;
+  padding: 0 !important;
+  margin: 0 !important;
+}
