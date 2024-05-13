@@ -79,11 +79,11 @@
             <nav class="navbar navbar-expand navbar-light">
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="header-nav">
-                        <li class="active"><a href="/header-section">HOME</a></li>
-                        <li ><a href="/story-section">STORY</a></li>
-                        <li ><a href="/wedding-section">WEDDING</a></li>
-                        <li ><a href="#">GALLERY</a></li>
-                        <li ><a href="#">PAGES</a></li>
+                        <li class="active"><a href="/#header-section">HOME</a></li>
+                        <li ><a href="/#story-section">STORY</a></li>
+                        <li ><a href="/#wedding-section">WEDDING</a></li>
+                        <li ><a href="/#">GALLERY</a></li>
+                        <li ><a href="/#">PAGES</a></li>
                         <li ><a href="/rsvp">RSVP</a></li>
                     </ul>
                 </div>
